@@ -9,9 +9,6 @@ if (!GEMINI_API_KEY) {
   throw new Error("GEMINI_API_KEY is not set in environment variables");
 }
 
-/**
- * Extract the first JSON object from Gemini output safely.
- */
 function extractJsonObject(raw: string): string {
   const match = raw.match(/\{[\s\S]*\}/);
   if (!match) throw new Error("No JSON object found in Gemini response");
