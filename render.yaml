@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: spendeka-api
-    env: node
-    buildCommand: npm install && npm run build
-    startCommand: node dist/index.js

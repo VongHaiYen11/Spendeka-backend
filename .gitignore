@@ -1,0 +1,17 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Temp uploads
+tmp/
+
+# Logs & misc
+*.log
+.DS_Store
